@@ -1,8 +1,9 @@
-title: Bony George
-description: Portfolio site built with Jekyll on GitHub Pages.
-theme: jekyll-theme-minimal
+title: Abanoub Alam
+description: Master's Student in Artificial Intelligence | ML & Generative AI Developer
+theme: jekyll-theme-midnight
 show_downloads: false
 
 # Optional profile links used in templates and markdown.
 github_username: BonyGeorge
 email: you@example.com
+linkedin_url: https://www.linkedin.com/in/abanoubgeorge/
