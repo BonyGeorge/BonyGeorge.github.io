@@ -11,6 +11,14 @@
   --shadow: 0 20px 45px rgba(0, 0, 0, 0.45);
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: var(--bg);
+}
+
 body {
   font-family: "Manrope", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
@@ -18,6 +26,14 @@ body {
     radial-gradient(circle at 100% 100%, rgba(0, 181, 212, 0.22) 0%, transparent 35%),
     linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
   line-height: 1.6;
+}
+
+body.dark-mode,
+body.dark-mode .wrapper,
+body.dark-mode section,
+body.dark-mode header,
+body.dark-mode footer {
+  color: var(--text);
 }
 
 a {
@@ -30,12 +46,22 @@ a:hover {
 
 .wrapper {
   max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: transparent;
 }
 
 header,
 section,
 footer {
   animation: fade-up 450ms ease both;
+}
+
+section {
+  background: rgba(8, 14, 27, 0.52);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1rem;
 }
 
 header,
@@ -139,6 +165,11 @@ header h1 a {
 
 .panel p {
   max-width: 64ch;
+  color: var(--muted);
+}
+
+p,
+li {
   color: var(--muted);
 }
 
