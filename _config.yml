@@ -1,9 +1,5 @@
-title: Abanoub Alam
-description: Master's Student in Artificial Intelligence | ML & Generative AI Developer
-theme: jekyll-theme-hacker
-show_downloads: false
-
-# Optional profile links used in templates and markdown.
-github_username: BonyGeorge
-email: you@example.com
-linkedin_url: https://www.linkedin.com/in/abanoubgeorge/
+title: Abanoub | AI Engineer Portfolio
+description: AI Systems Engineer & Data Scientist Portfolio
+baseurl: ""
+url: "https://yourusername.github.io" # Replace with your actual GitHub Pages URL
+markdown: kramdown
