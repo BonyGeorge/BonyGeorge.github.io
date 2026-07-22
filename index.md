@@ -53,6 +53,22 @@ Computer Science graduate and a current MSc in Artificial Intelligence candidate
 *   **Student GPA Prediction (HSLS:09):** Built an end-to-end ML pipeline predicting student GPA categories leveraging feature selection, dimensionality reduction (LDA), and ensemble models.
 *   **Reddit Movie Sentiment Platform:** Engineered the system architecture and backend assumptions for a dynamic sentiment analysis homepage.
 
+## GITHUB PROJECTS
+
+<div class="github-projects">
+{% assign pinned_projects = site.github.public_repositories | sort: 'stargazers_count' | reverse | slice: 0, 8 %}
+{% for repo in pinned_projects %}
+    <article class="repo-card">
+        <h3><a href="{{ repo.html_url }}" target="_blank" rel="noreferrer">{{ repo.name }}</a></h3>
+        <p>{{ repo.description | default: "No description provided yet." }}</p>
+        <p class="repo-meta">{{ repo.language | default: "Code" }}{% if repo.stargazers_count %} · {{ repo.stargazers_count }} stars{% endif %}{% if repo.forks_count %} · {{ repo.forks_count }} forks{% endif %}</p>
+    </article>
+{% endfor %}
+{% if pinned_projects.size == 0 %}
+    <p>Public repositories will appear here after your first GitHub Pages build with repository metadata.</p>
+{% endif %}
+</div>
+
 ## EDUCATION
 
 *   **MSc in Artificial Intelligence** - University of St. Thomas (Current)
@@ -64,7 +80,25 @@ Computer Science graduate and a current MSc in Artificial Intelligence candidate
 *   **Data & AI:** Databricks Building Retrieval Agents, Datacamp LLM/LangChain, AWS Machine Learning (Udacity), IBM Data Science Professional
 *   **Google Skills Boost:** Multiple badges including Generative AI Fundamentals, Vertex AI Studio, and Responsible AI.
 
+## PUBLICATION
+
+*   **Detection of Wild Oats based on Support Vector Machine Algorithms** - MIUCC Conference for International Mobile Intelligent and Ubiquitous Computing (2021)
+*   **Wild Oats Dataset:** Built and published a custom dataset for wild oats detection on Kaggle.
+
+## CURRENTLY LEARNING
+
+*   Advanced Generative AI systems
+*   LLM applications
+*   MLOps and scalable ML pipelines
+*   AI model deployment on cloud platforms
+
 ## LANGUAGES
 
 *   **Arabic:** Native
 *   **English:** Fluent
+
+## CONNECT
+
+*   **GitHub:** [github.com/{{ site.github_username }}](https://github.com/{{ site.github_username }})
+*   **LinkedIn:** [abanoubgeorge](https://www.linkedin.com/in/abanoubgeorge/)
+*   **Email:** [{{ site.email }}](mailto:{{ site.email }})
