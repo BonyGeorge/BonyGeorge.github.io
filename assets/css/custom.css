@@ -3,10 +3,10 @@
 :root {
     --bg-color: #0b1020;
     --surface: #101833;
-    --text-main: #c7d4f7;
-    --text-muted: #95a9d9;
-    --accent: #7fd3a3;
-    --accent-2: #8ab4ff;
+    --text-main: #c9d3e9;
+    --text-muted: #a4b0cc;
+    --accent: #9db4d3;
+    --accent-2: #b5c3df;
     --line: #243051;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-    color: #e6fff1;
+    color: #eef3ff;
 }
 
 ul {
@@ -129,10 +129,32 @@ li {
 }
 
 .repo-card {
-    background: #0c142c;
+    background: #0f1730;
     border: 1px solid var(--line);
     border-radius: 6px;
     padding: 12px;
+}
+
+.project-cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.project-card {
+    background: #0f1730;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.project-card h3 {
+    margin: 0 0 6px;
+}
+
+.project-card p {
+    margin: 0;
 }
 
 .repo-card h3 {
@@ -150,6 +172,7 @@ li {
 }
 
 @media (max-width: 800px) {
+    .project-cards,
     .github-projects {
         grid-template-columns: 1fr;
     }

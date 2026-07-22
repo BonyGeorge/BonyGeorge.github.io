@@ -48,10 +48,24 @@ Computer Science graduate and a current MSc in Artificial Intelligence candidate
 
 ## TECHNICAL PROJECTS
 
-*   **Distributed AI Inference System:** Architected an asynchronous inference system using Airflow, SQS, S3, and Kubernetes.
-*   **Medical Imaging Triage:** Designed a high-level system architecture for an automated medical imaging triage and detection platform.
-*   **Student GPA Prediction (HSLS:09):** Built an end-to-end ML pipeline predicting student GPA categories leveraging feature selection, dimensionality reduction (LDA), and ensemble models.
-*   **Reddit Movie Sentiment Platform:** Engineered the system architecture and backend assumptions for a dynamic sentiment analysis homepage.
+<div class="project-cards">
+    <article class="project-card">
+        <h3>Distributed AI Inference System</h3>
+        <p>Architected an asynchronous inference system using Airflow, SQS, S3, and Kubernetes.</p>
+    </article>
+    <article class="project-card">
+        <h3>Medical Imaging Triage</h3>
+        <p>Designed a high-level system architecture for an automated medical imaging triage and detection platform.</p>
+    </article>
+    <article class="project-card">
+        <h3>Student GPA Prediction (HSLS:09)</h3>
+        <p>Built an end-to-end ML pipeline predicting student GPA categories leveraging feature selection, dimensionality reduction (LDA), and ensemble models.</p>
+    </article>
+    <article class="project-card">
+        <h3>Reddit Movie Sentiment Platform</h3>
+        <p>Engineered the system architecture and backend assumptions for a dynamic sentiment analysis homepage.</p>
+    </article>
+</div>
 
 ## GITHUB PROJECTS
 
